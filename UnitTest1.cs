@@ -22,7 +22,7 @@ namespace AutomationFramework
         }
 
         [Test]
-        public void TestShopNavigation()
+        public void Test1()
         {
             HomePage homePage = new HomePage(browser);
             homePage.ClickShopButton();
@@ -35,7 +35,7 @@ namespace AutomationFramework
         }
 
         [Test]
-        public void TestContactLinkVisibleOnHomePage()
+        public void Test2()
         {
             HomePage homePage = new HomePage(browser);
             Assert.IsTrue(homePage.IsContactLinkVisible());
